@@ -1,6 +1,6 @@
 package com.ronaldsantos;
 
-public interface EncryptService {
+public interface EncryptionService {
     String encrypt(String data) throws Exception;
-    String decrypt(String data) throws Exception;
+    String decrypt(String encryptedData) throws Exception;
 }
